@@ -1,56 +1,57 @@
-# Guia do Mochileiro Universitário (Monorepo)
+# Guia do Mochileiro Universitário
 
-Bem-vindo ao repositório oficial do **Guia do Mochileiro Universitário**, um projeto dedicado a melhorar a experiência dos estudantes da Escola Politécnica de Pernambuco (POLI-UPE).
+Bem-vindo ao **Guia do Mochileiro Universitário**, seu companheiro essencial para a jornada na Escola Politécnica de Pernambuco (POLI-UPE).
 
-## 📂 Estrutura do Projeto
+Este projeto visa facilitar a vida dos estudantes, oferecendo ferramentas intuitivas para navegação no campus, organização de horários e descoberta de oportunidades acadêmicas.
 
-Este repositório está organizado como um monorepo contendo tanto o back-end quanto o front-end da aplicação.
+## 🚀 Funcionalidades
 
-```
-Guia_Mochileiro_Universitario/
-├── backend/            # API e lógica do servidor (Django)
-├── frontend/           # Interface do usuário (React + Vite)
-└── README.md           # Este arquivo
-```
+- **🗺️ Mapa Interativo **: Um mapa 2D interativo para explorar o campus, encontrar salas e conhecer mais sobre a POLI.
+- **📅 Organização de Horários**: Gerencie suas aulas e compromissos em um só lugar (Em breve).
+- **🎉 Eventos**: Fique por dentro de todas as atividades e eventos que acontecem na universidade.
+- **🤝 Projetos e Extensão**: Conecte-se com grupos de pesquisa e atividades extracurriculares.
+- **📚 Tutoriais**: Guias práticos para auxiliar no seu dia a dia acadêmico.
 
-## 🚀 Módulos
+## 🛠️ Tecnologias Utilizadas
 
-### [Frontend (Mochileiro)](./frontend/mochileiro)
-A interface web moderna e interativa onde os alunos navegam pelo mapa 3D, consultam horários e eventos.
+Este projeto foi desenvolvido utilizando tecnologias modernas para garantir uma experiência rápida e fluida:
 
-- **Tecnologias**: React, TypeScript, Vite, TailwindCSS.
-- **Destaque**: Integração com POLIMAP (Mapa 3D).
-- **Como rodar**:
-  ```bash
-  cd frontend/mochileiro
-  npm install
-  npm run dev
-  ```
+- **Frontend**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Linguagem**: [TypeScript](https://www.typescriptlang.org/)
+- **Estilização**: [TailwindCSS](https://tailwindcss.com/)
+- **Ícones**: [Lucide React](https://lucide.dev/)
+- **Roteamento**: [React Router](https://reactrouter.com/)
+- **HTTP Client**: [Axios](https://axios-http.com/)
 
-### [Backend](./backend)
-A API robusta que gerencia dados de usuários, eventos, horários e locais.
+## 📦 Como Rodar o Projeto
 
-- **Tecnologias**: Django (Python), Django REST Framework.
-- **Banco de Dados**: PostgreSQL (recomendado para produção).
+1.  **Clone o repositório**
+    ```bash
+    git clone https://github.com/SeuUsuario/Guia_Mochileiro_Universitario.git
+    cd Guia_Mochileiro_Universitario/frontend/mochileiro
+    ```
 
-## 🤝 Como Contribuir
+2.  **Instale as dependências**
+    ```bash
+    npm install
+    ```
 
-1.  Faça um fork do projeto.
-2.  Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`).
-3.  Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`).
-4.  Faça o push para a branch (`git push origin feature/MinhaFeature`).
-5.  Abra um Pull Request.
+3.  **Inicie o servidor de desenvolvimento**
+    ```bash
+    npm run dev
+    ```
 
-## 👥 Autores
+4.  Acesse `http://localhost:5173` no seu navegador.
 
-Este projeto é mantido por um grupo dedicado de estudantes da UPE.
+## 🧪 Scripts Disponíveis
 
-- Arthur Marcelino
-- José Alves
-- José Mario da Silva
-- Laís Oliveira
-- Pedro Henrique França
-- Vinícius Moura
+- `npm run dev`: Inicia o ambiente de desenvolvimento.
+- `npm run build`: Compila o projeto para produção.
+- `npm run preview`: Visualiza a versão de produção localmente.
+- `npm run lint`: Executa a verificação de código com ESLint.
+- `npm run test`: Executa os testes unitários com Vitest.
+
 
 ---
-*Construindo o futuro da POLI, linha por linha.* 🚀
+*Este é um projeto feito por estudantes, para estudantes.* 🎓 
+
